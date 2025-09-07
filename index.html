@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>MIMOSA</h1>
+        <nav>
+            <button id="loginBtn">LOGIN</button>
+            <span id="welcomeMessage"></span>
+        </nav>
+    </header>
+    <main>
+        <section id="filters">
+            <!-- <h2>Categories</h2> -->
+            <div id="categoryFilter" class="category-buttons">
+                <!-- Category buttons will be dynamically added here -->
+            </div>
+        </section>
+
+        <section id="products">
+            <!-- <h2>Products</h2> -->
+            <div id="productGrid" class="grid-container"></div>
+        </section>
+
+        <section id="cart">
+            <h2>My Cart</h2>
+            <div id="cartItems"></div>
+            <div id="cartSummary">
+                <p style="width: 85%;"> Total :</p>
+                <p id="cartTotal">$0.00</p>
+                <button id="checkoutBtn" style="margin-left: 3%;">Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MIMOSA pvt LTD. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
